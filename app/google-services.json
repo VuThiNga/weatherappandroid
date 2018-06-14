@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "390553689297",
+    "firebase_url": "https://radiant-pen-165115.firebaseio.com",
+    "project_id": "radiant-pen-165115",
+    "storage_bucket": "radiant-pen-165115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390553689297:android:7c72f32e8a5b87f1",
+        "android_client_info": {
+          "package_name": "com.example.ngagerrard.weatherappandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390553689297-ldnbut7n1a4952vvgo8f9k12p3me7921.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ngagerrard.weatherappandroid",
+            "certificate_hash": "ca90746f3827877ca13774260ec5c94143c862bd"
+          }
+        },
+        {
+          "client_id": "390553689297-fjn6o8bqa75a7mucge6dsak1n1s0f945.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQFkk1qSVqEOWO2Eq7RwfBMmpbMy2GWa0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390553689297-fjn6o8bqa75a7mucge6dsak1n1s0f945.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

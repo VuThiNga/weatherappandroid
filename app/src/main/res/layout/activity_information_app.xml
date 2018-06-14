@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.InformationAppActivity"
+    android:background="#bce2ef">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp">
+            <ImageView
+                android:background="@drawable/anh2"
+
+                android:minWidth="96dp"
+                android:minHeight="96dp"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal" />
+            <TextView
+                android:layout_margin="10dp"
+                android:paddingTop="30dp"
+                android:textStyle="bold"
+                android:textSize="21dp"
+                android:textColor="#359fe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thời tiết Việt Nam"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:textColor="#359fe1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phiên bản 1.0"
+                android:id="@+id/textView3"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> Nhanh, chính xác, tin cậy"
+                android:textColor="#d6aa3d"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> Xem thời tiết vị trí hiện tại"
+                android:textColor="#d6aa3d"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> Xem thời tiết các tỉnh thành khác"
+                android:textColor="#d6aa3d"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-> Dự báo thời tiết 7 ngày tiếp theo"
+                android:textColor="#d6aa3d"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+        </LinearLayout>
+        <!--<Button-->
+            <!--android:drawablePadding="5dp"-->
+            <!--android:padding="5dp"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:drawableTop="@drawable/ic_mail"-->
+            <!--android:textColor="#359fe1"-->
+            <!--android:background="@drawable/button_phanhoi"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Gửi phản hồi"-->
+            <!--android:id="@+id/button_informationApp"-->
+            <!--android:layout_gravity="center_horizontal" />-->
+    </LinearLayout>
+
+    <TextView
+        android:textColor="#359fe1"
+        android:gravity="center"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By SuGi BKHN"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

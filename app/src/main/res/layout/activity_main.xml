@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3e98ea"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.MainActivity">
+
+    <include layout="@layout/content_main" />
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiple_actions"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:fab_addButtonColorNormal="#0f8769"
+        app:fab_addButtonColorPressed="#72ea80"
+        app:fab_addButtonPlusIconColor="#f5ece8"
+        app:fab_labelStyle="@style/menu_labels_style">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_introduced"
+            app:fab_icon="@drawable/ic_intro"
+            app:fab_colorNormal="#0f8769"
+            app:fab_colorPressed="#72ea80"
+            app:fab_size="mini"
+            app:fab_title="Giới thiệu chung"
+            android:onClick="openInformation"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_detail"
+            app:fab_icon="@drawable/ic_detail"
+            app:fab_colorNormal="#0f8769"
+            app:fab_colorPressed="#72ea80"
+            app:fab_size="mini"
+            app:fab_title="Thông tin thời tiết chi tiết"
+            android:onClick="openWeatherDetail"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_sevendays"
+            app:fab_icon="@drawable/ic_days"
+            app:fab_colorNormal="#0f8769"
+            app:fab_colorPressed="#72ea80"
+            app:fab_size="mini"
+            app:fab_title="Thời tiết 7 ngày tiếp theo"
+            android:onClick="openSevenDayDailyWeather"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_othercity"
+            app:fab_icon="@drawable/ic_citys"
+            app:fab_colorNormal="#0f8769"
+            app:fab_colorPressed="#72ea80"
+            app:fab_size="mini"
+            app:fab_title="Thời tiết các tỉnh thành khác"
+            android:onClick="openChooseAddressAct"
+            />
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action_map"
+            app:fab_icon="@drawable/ic_map"
+            app:fab_colorNormal="#0f8769"
+            app:fab_colorPressed="#e17997"
+            app:fab_size="mini"
+            app:fab_title="Notification"
+            android:onClick="showNotification"
+            />
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+</RelativeLayout>
